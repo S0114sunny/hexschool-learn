@@ -1,0 +1,87 @@
+body {
+    line-height: 1.5;
+    font-family: Castoro;
+}
+
+img {
+    max-width: 100%;
+    /*避免圖片跑出範圍*/
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 160px;
+}
+
+.header h1 {
+    font-size: 128px;
+    font-family: Castoro;
+    letter-spacing: 0.12em;
+}
+
+.header h2 {
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    margin-left: 660px;
+}
+
+.header img {
+    display: block;
+    width: 636px;
+    height: 848px;
+    margin-left: 330px;
+}
+
+.main {
+    background-color: #EFEFEF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 40px;
+}
+
+.main p {
+    margin-left: 660px;
+    font-size: 32px;
+}
+
+.info {
+    margin-right: 660px;
+}
+
+.experience {
+    margin-top: 40px;
+    padding-right: 660px;
+}
+
+.experience h3 {
+    font-size: 40px;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    margin-bottom: 8px;
+}
+
+.experience p {
+    font-size: 24px;
+}
+
+.experience .time {
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+}
+
+.footer {
+    margin-top: 160px;
+    background-color: black;
+    text-align: center;
+    padding: 44px 0px;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 20px;
+}
