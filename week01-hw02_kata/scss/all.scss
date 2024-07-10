@@ -1,0 +1,43 @@
+@import "reset";
+@import "base";
+
+@function countPX($x) {
+    @return $x*4px;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+    font-size: countPX(5);
+    line-height: 1.2;
+}
+
+p {
+    font-size: countPX(4);
+    line-height: 1.5;
+}
+
+.warp {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mr-5 {
+    margin-right: countPX(5);
+}
+
+.mb-6 {
+    margin-bottom: countPX(6);
+}
+
+.footer {
+    padding: 48px 0;
+    text-align: center;
+    outline: solid 1px;
+}
