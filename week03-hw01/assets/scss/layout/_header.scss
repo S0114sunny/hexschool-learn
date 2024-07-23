@@ -1,4 +1,14 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  background: $color-red;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 16px 0;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+img {
+  width: 80px;
 }

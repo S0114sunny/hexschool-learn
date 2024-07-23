@@ -1,7 +1,9 @@
 @import './base/reset',
-        './base/fontStyle';
+'./base/fontStyle',
+'./base/base';
 
-@import './utils/variables';
+@import './utils/variables',
+'./utils/helpers';
 
 @import './layout/header.scss';
 @import './layout/footer.scss';
