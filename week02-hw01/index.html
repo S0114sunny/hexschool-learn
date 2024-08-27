@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>第二週 - 個人網站</title>
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -59,22 +60,22 @@
     <div class="about">
         <div class="wrap d-flex justify-content-between align-items-center">
             <ol class="about-list d-flex g-6">
-                <li>
+                <li data-aos="zoom-out-right">
                     <p>01</p>
                     <h3 class="fs-3">Attention to Detail</h3>
                     <p>Meticulous code analysis and optimization.</p>
                 </li>
-                <li>
+                <li data-aos="zoom-out-left">
                     <p>02</p>
                     <h3 class="fs-3">Adaptability</h3>
                     <p>Swift learning of new technologies.</p>
                 </li>
-                <li>
+                <li data-aos="zoom-out-right">
                     <p>03</p>
                     <h3 class="fs-3">Problem Solver</h3>
                     <p>Identifying and resolving issues.</p>
                 </li>
-                <li>
+                <li data-aos="zoom-out-left">
                     <p>04</p>
                     <h3 class="fs-3">Team Player</h3>
                     <p>Collaborates and shares ideas.</p>
@@ -93,11 +94,11 @@
     </div>
     <div class="social">
         <div class="wrap d-flex align-items-center justify-content-between">
-            <div class="d-flex">
+            <div class="d-flex" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <h4 class="h2 mr-4">CONTACT ME</h4>
                 <img src="./images/trending_flat_black_24dp.png" alt="">
             </div>
-            <ul>
+            <ul data-aos="fade-left" data-aos-offset="300" data-aos-duration="500">
                 <li><a href="#" class="social-link mr-5"><img src="./images/discord.png" alt=""></a></li>
                 <li><a href="#" class="social-link mr-5"><img src="./images/instagram.png" alt=""></a></li>
                 <li><a href="#" class="social-link mr-5"><img src="./images/message.png" alt=""></a></li>
@@ -107,22 +108,22 @@
     <div class="project wrap">
         <h2 class="h2">My Projects</h2>
         <div class="d-flex g-6">
-            <img src="./images/Rectangle 10.png" alt="">
+            <img src="./images/Rectangle 10.png" alt="" data-aos="zoom-out">
             <div class="d-flex g-6 flex-direction-column">
                 <div class="d-flex g-6">
-                    <img src="./images/Rectangle 15.png" alt="">
+                    <img src="./images/Rectangle 15.png" alt="" data-aos="zoom-out">
                     <div class="d-flex flex-direction-column">
                         <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I
                             take pride in creating clean, efficient, and user-friendly code.</p>
                         <a class="dark-btn" href=" #">
                             SEE MORE
-                            <img src="./images/arrow_outward-white.png" alt="">
+                            <img src="./images/arrow_outward-white.png" alt="" data-aos="zoom-out">
                         </a>
                     </div>
                 </div>
                 <div class="d-flex g-6">
-                    <img src="./images/Rectangle 14.png" alt="">
-                    <img src="./images/Rectangle 29.png" alt="">
+                    <img src="./images/Rectangle 14.png" alt="" data-aos="zoom-out">
+                    <img src="./images/Rectangle 29.png" alt="" data-aos="zoom-out">
                 </div>
             </div>
         </div>
@@ -130,6 +131,11 @@
     <div class="footer">
         <p>all rights reserved @hexschool2023</p>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
